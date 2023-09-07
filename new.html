@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- meta attribute is used to get a particular set of characters which 
+    we can use in our webpage like UTF-8 nearly contains all of the required characters needed -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Personal WebPage</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url('horizon.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(231, 226, 217);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+    <!-- <img src="horizon.jpeg" alt=""> -->
+    <h1>Hey all welcome to my webapge</h1>
+    <p>I am a second year UG student in the Dept. of Civil Engineering at the <a href="https://iitk.ac.in">Indian
+            Institute of Technology Kanpur</a>.̥</p>
+    <hr>
+    <h3>Education</h3>
+    <p>
+        <!-- <ul>
+            <li>IIT Kanpur : 2022-2026</li> 
+            <li>Central Public School : 2020-2022 </li> 
+            <li>Chapra Central School : 2016-2020</li> 
+        </ul> -->
+    <table border="4">
+        <tr>
+            <td>IIT Kanpur</td>
+            <td>2022-26</td>
+        </tr>
+        <tr>
+            <td>Central Public School</td>
+            <td>2020-22</td>
+        </tr>
+        <tr>
+            <td>Chapra Central School</td>̥
+            <td>2016-20</td>
+        </tr>̥
+    </table>
+    </p>
+    <hr>
+    <h3>Skills</h3>
+    <!-- <table border="4"> -->
+    <table border="4">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Finance</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                </table>>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>WebDev</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3><b>Enter Your Queries Here</b></h3>
+    <!-- <form action="form.php">
+        <label for="">
+            Your Details
+            <input type="text"><br>
+            <input type="submit"><br>
+            <input type="file"><br>
+            <input type="date"><br>
+            <input type="radio"><br>
+            <input type="range">
+        </label>
+    </form> -->
+
+    <form action="">
+        <table border="1">
+            <tr>
+                <td>
+                    <label for="">
+                        Your Name
+                    </label>
+                </td>
+                <td align="right">
+                    <input type="text" placeholder="Enter Your Name"> 
+                </td>
+            </tr>
+            <!-- <label for="">
+        </label> -->
+            <tr>
+                <td>
+                    <label for="">
+                        Upload Your Photograph
+                    </label>
+                </td>
+                <td align="right">  
+                    <!-- this cell is not aligning don't know why ?? -->
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">
+                        Enter Your DOB
+                    </label>
+                </td>
+                <td align="right">
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">
+                        Are you a student?
+                    </label>
+                </td>
+                <td align="right">
+                    <input type="radio" value="Yes" id="Yes" name="student">Yes
+                    <input type="radio" value="No" id="No" name="student">No
+                </td>
+                <!-- for radio to work properly that is only one option can be selected "name" of all input have to be same -->
+                <!-- "value" can be different -->
+            </tr>
+            <tr>
+                <td>
+                    <label for="">
+                        Enter Your CPI
+                    </label>
+                </td>
+                <td align="right">
+                    <input type="range" min="0.00" max="10.00" step="2" value="2">
+                    <!-- step value is equal to the value by which successive selctions differ -->
+                    <!-- value is the initial value set in the slider -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">
+                        Your Name
+                    </label>
+                </td>
+                <td align="right">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    <!-- <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message">Hello Guys !!</textarea><br> -->
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>̥
