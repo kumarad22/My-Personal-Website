@@ -1,0 +1,16 @@
+/* body{
+    background-color: rgb(16, 13, 13);
+} */
+#first{
+    background-color: aqua;
+}
+/* use # to target id */
+/* use . to target class */
+.bg-blue{
+    background-color: white;
+    color: red;
+}
+h1{
+    background-color: antiquewhite;
+    color: brown;
+}
