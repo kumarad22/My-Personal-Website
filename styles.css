@@ -1,0 +1,67 @@
+body {
+    /* background-image: url('horizon.jpeg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    background-color: rgb(236, 236, 222);
+}
+
+a:link {̥
+    color: green;
+    background-color: transparent;
+    text-deco̥ration: none;
+}
+
+a:visited {
+    color: rgb(147, 99, 9);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+hr {
+    width: 30%;
+    /* border-style: dotted none none; */
+    /* either we can use three values for border style as shown to in which first value applies to top,
+    2nd to bottom and 3rd to right & left */
+    /* or we can use border-top-style along with border-style*/
+    
+    border-style: none;
+    border-top-style: dotted;
+
+    /* in this case remember that if we write border-style later it will dominate the earlier
+    border-top-style so write it first */
+
+    border-color: grey;
+    border-width: 5px;
+    height: 0px;
+    /* background-color: white; */
+}
+
+h1 {
+    color: #66bfbf;
+}
+
+h3 {
+    color: #66bfbf;
+}
+
+img {
+    /* border-radius: 40%; */
+    /* height: 200px; */
+    max-width: 100%;
+    /* by default the height is set to adjust by auto */
+
+}
